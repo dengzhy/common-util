@@ -1,4 +1,4 @@
-package com.dianji.common.utils;
+package com.dengzhy.common.utils;
 
 import javax.net.ssl.X509TrustManager;
 import java.security.cert.CertificateException;

@@ -1,10 +1,10 @@
-package com.dianji.common.result;
+package com.dengzhy.common.result;
 
 /**
- * @author Clark
- * @create 2018/4/27
- * Copyright (C) 杭州典击科技有限公司
- * @description
+ *
+ * @Author dengzhy
+ * @Date 2018/8/14 14:01
+ * @Return 
  */
 public interface BaseResultCode {
     /**

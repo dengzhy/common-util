@@ -1,4 +1,4 @@
-package com.dianji.common.utils;
+package com.dengzhy.common.utils;
 
 import com.fasterxml.jackson.annotation.JsonFilter;
 import com.fasterxml.jackson.databind.ser.BeanPropertyFilter;
@@ -7,9 +7,8 @@ import com.fasterxml.jackson.databind.ser.PropertyFilter;
 import org.apache.commons.lang.StringUtils;
 
 /**
- * Copyright (C), 杭州典击科技有限公司
  * FileName: DynamicFieldFilterProvider
- * Author: Clark
+ * Author: dengzhy
  * Date: 2016/9/9 16:36
  * Description:
  */

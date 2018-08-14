@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.dianji</groupId>
+    <groupId>com.dengzhy</groupId>
     <artifactId>common</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -57,19 +57,24 @@
             <artifactId>slf4j-api</artifactId>
             <version>1.7.21</version>
         </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus</artifactId>
+            <version>2.1.9</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>5.0.8.RELEASE</version>
+        </dependency>
     </dependencies>
-    <distributionManagement>
-        <repository>
-            <id>nexus-releases</id>
-            <name>nexus distribution releases repository</name>
-            <url>http://192.168.0.23:8081/repository/maven-releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>nexus-snapshots</id>
-            <name>nexus distribution snapshot repository</name>
-            <url>http://192.168.0.23:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
+
 
 
 </project>

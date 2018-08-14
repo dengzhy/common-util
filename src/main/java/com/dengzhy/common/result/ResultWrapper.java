@@ -1,16 +1,19 @@
-package com.dianji.common.result;
+package com.dengzhy.common.result;
 
 
-import com.dianji.common.exception.ApiException;
+import com.dengzhy.common.exception.ApiException;
+import com.dengzhy.common.utils.Jackson;
+import com.dengzhy.common.utils.PageModel;
+import com.dengzhy.common.utils.PageModelMap;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
- * @author Clark
- * @create 2018/4/27
- * Copyright (C) 杭州典击科技有限公司
- * @description
+ * 对结果进行封装
+ * @Author dengzhy
+ * @Date 2018/8/14 14:01
+ * @Return 
  */
 public class ResultWrapper {
     /**
@@ -54,13 +57,13 @@ public class ResultWrapper {
         return map;
     }
 
-    /**
-      * @author Clark
-      * @date 2018/5/2 17:42
-      * @param
-      * @return
-      * @description 返回 ApiException 错误信息
-    **/
+  /**
+   * 返回 ApiException 错误信息
+   * @Author dengzhy
+   * @Date 2018/8/14 14:00
+    * @param apiException
+   * @Return java.util.Map<java.lang.String,java.lang.Object>
+   */
     public static Map<String, Object> fail(ApiException apiException) {
         Map<String, Object> map = new LinkedHashMap<>();
         map.put("success", false);
@@ -69,5 +72,26 @@ public class ResultWrapper {
         }
         map.put("message", apiException.getMessage());
         return map;
+    }
+    /**
+     * 返回string类型的结果
+     * @Author dengzhy
+     * @Date 2018/8/14 14:00
+     * @param object
+     * @Return java.lang.String
+     */
+    public static String successList(Object object) {
+        Map<String, Object> map = new LinkedHashMap<String, Object>();
+        map.put("success", true);
+        if (object instanceof PageModel) {
+            PageModel<?> pm = (PageModel<?>) object;
+            map.put("data", pm.getData());
+            map.put("total", pm.getRecordCount());
+        } else if (object instanceof PageModelMap) {
+            map.putAll((Map<? extends String, ? extends Object>) object);
+        } else {
+            map.put("data", object);
+        }
+        return Jackson.mobile().writeValueAsString(map);
     }
 }

@@ -1,12 +1,11 @@
-package com.dianji.common.utils;
+package com.dengzhy.common.utils;
 
 import java.util.UUID;
 
 /**
- * @author:xiaochuang
- * @description:
- * @date: 15:04 2018/5/21
- * @modified by
+ *
+ * @Author dengzhy
+ * @Date 2018/8/14 14:18
  */
 public class TokenUtils {
 

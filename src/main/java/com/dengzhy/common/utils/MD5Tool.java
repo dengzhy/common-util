@@ -1,11 +1,10 @@
-package com.dianji.common.utils;
+package com.dengzhy.common.utils;
 
 import java.security.MessageDigest;
 
 /**
- * Copyright (C), 杭州典击科技有限公司
  * FileName: MD5Tool
- * Author: Clark
+ * Author: dengzhy
  * Description:MD5加密工具类
  */
 public abstract class MD5Tool

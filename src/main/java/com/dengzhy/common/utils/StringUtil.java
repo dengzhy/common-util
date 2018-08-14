@@ -1,4 +1,4 @@
-package com.dianji.common.utils;
+package com.dengzhy.common.utils;
 
 
 import org.apache.commons.lang.RandomStringUtils;

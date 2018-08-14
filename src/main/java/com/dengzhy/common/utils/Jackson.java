@@ -1,4 +1,4 @@
-package com.dianji.common.utils;
+package com.dengzhy.common.utils;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.JsonGenerator;
@@ -11,9 +11,8 @@ import java.io.IOException;
 import java.io.Writer;
 
 /**
- * Copyright (C), 杭州典击科技有限公司
  * FileName: Jackson
- * Author: Clark
+ * Author: dengzhy
  * Date: 2016/9/9 16:36
  * Description:
  */

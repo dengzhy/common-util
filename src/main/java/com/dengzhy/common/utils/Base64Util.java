@@ -1,12 +1,12 @@
-package com.dianji.common.utils;
+package com.dengzhy.common.utils;
 
 import java.io.UnsupportedEncodingException;
 
 /**
- * @author:xiaochuang
- * @description:
- * @date: 18:13 2018/5/28
- * @modified by
+ *
+ * @Author dengzhy
+ * @Date 2018/8/14 14:04
+ * @Return
  */
 public class Base64Util {
     /**

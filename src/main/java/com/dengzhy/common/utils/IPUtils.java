@@ -1,4 +1,4 @@
-package com.dianji.common.utils;
+package com.dengzhy.common.utils;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
@@ -6,16 +6,15 @@ import java.net.UnknownHostException;
 /**
  * @ClassName: IPUtils
  * @Description:
- * @Author zhujunjie
+ * @Author dengzhy
  * @Date 2018 05 12:12
- * Copyright (C) 杭州典击科技有限公司
  */
 public class IPUtils {
 
     /**
      * 获取本机IP地址
      *
-     * @Author zhujunjie
+     * @Author dengzhy
      * @Date 18/5/8 12:14
      * @param
      * @Return java.lang.String

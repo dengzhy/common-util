@@ -1,4 +1,4 @@
-package com.dianji.common.utils;
+package com.dengzhy.common.utils;
 
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
@@ -14,9 +14,8 @@ import java.util.GregorianCalendar;
 /**
  * @ClassName: DateUtils
  * @Description:
- * @Author zhujunjie
+ * @Author dengzhy
  * @Date 2018 05 12:06
- * Copyright (C) 杭州典击科技有限公司
  */
 public class DateUtils {
 
@@ -38,7 +37,7 @@ public class DateUtils {
      * 获取当前时间，格式：yyyy-MM-dd HH:mm:SS
      *
      * @param
-     * @Author zhujunjie
+     * @Author dengzhy
      * @Date 18/5/8 13:45
      * @Return java.lang.String
      */
@@ -51,7 +50,7 @@ public class DateUtils {
     /**
      * 获取当前时间
      *
-     * @Author zhujunjie
+     * @Author dengzhy
      * @Date 18/5/9 11:38
      * @param
      * @Return java.util.Date
@@ -63,7 +62,7 @@ public class DateUtils {
     /**
      * 获取指定时间的后X小时的时间
      *
-     * @Author zhujunjie
+     * @Author dengzhy
      * @Date 18/5/9 14:22
      * @param currentDate
      * @param hour
@@ -84,7 +83,7 @@ public class DateUtils {
     /**
      * 获取当天时间的开始时间
      *
-     * @Author zhujunjie
+     * @Author dengzhy
      * @Date 18/5/10 09:56
      * @param
      * @Return java.util.Date
@@ -101,7 +100,7 @@ public class DateUtils {
     /**
      * 获取当天时间的结束时间
      *
-     * @Author zhujunjie
+     * @Author dengzhy
      * @Date 18/5/10 09:56
      * @param
      * @Return java.util.Date
@@ -118,7 +117,7 @@ public class DateUtils {
      * 获取以当天为基础往前几天或往后几天的那天的开始时间
      * days为正数时往后几天，days为负数时往前几天
      *
-     * @Author zhujunjie
+     * @Author dengzhy
      * @Date 18/5/10 09:58
      * @param
      * @Return java.util.Date
@@ -134,7 +133,7 @@ public class DateUtils {
       * 获取以当天为基础往前几天或往后几天的那天的结束时间
       * days为正数时往后几天，days为负数时往前几天
       *
-      * @Author zhujunjie
+      * @Author dengzhy
       * @Date 18/5/10 09:58
       * @param
       * @Return java.util.Date
@@ -148,7 +147,7 @@ public class DateUtils {
 
     /**
      * @methodName:getTimeByHour
-     * @author: xiaochuang
+     * @author: dengzhy
      * @description: 【获取当前时间之后n小时的时间】
      * @date:Created in 2018/5/9 17:30
      * <li> @param hour 小时数</li>
@@ -162,7 +161,7 @@ public class DateUtils {
 
     /**
      * @methodName:string2Date
-     * @author: xiaochuang
+     * @author: dengzhy
      * @description: 【字符串日期转时间类型】
      * @date:Created in 2018/5/9 17:36
      * <li> @param dateStr TODO</li>

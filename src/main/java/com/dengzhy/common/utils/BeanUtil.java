@@ -1,4 +1,4 @@
-package com.dianji.common.utils;
+package com.dengzhy.common.utils;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author 柯南
+ * @author dengzhy
  * create 2017-04-15
  */
 public class BeanUtil {

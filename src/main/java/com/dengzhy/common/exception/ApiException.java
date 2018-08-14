@@ -1,14 +1,14 @@
-package com.dianji.common.exception;
+package com.dengzhy.common.exception;
 
 import org.apache.commons.lang.StringUtils;
 
 /**
- * @author Clark
- * @create 2018/4/25
- * Copyright (C) 杭州典击科技有限公司
- * @description API接口请求的统一异常类【SOA所提供的服务采用此异常来统一处理错误信息的返回】
- * 通过该异常类统一将出错信息返回给消费端
+ *异常api
+ * @Author dengzhy
+ * @Date 2018/8/14 14:01
+ * @Return 
  */
+
 public class ApiException extends RuntimeException {
     private static final long serialVersionUID = 2685287081293576410L;
     private String errCode;
